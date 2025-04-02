@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("../images/plage.jpg");
+  background-position: center center;
+  font-family: 'Roboto', sans-serif; /* Changement de police */
+}
+
+/* Boutons Oui et Non */
+.button-yes-no {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c); /* Dégradé rose */
+    border: none;
+    color: white;
+    padding: 30px 50px; /* Plus grand pour un meilleur impact visuel */
+    font-size: 40px; /* Taille de police très grande */
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px; /* Coins arrondis importants */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 40px; /* Plus d'espace entre les boutons */
+    width: 300px; /* Taille plus large pour les boutons */
+    text-align: center;
+    border: 2px solid #ff758c; /* Bordure contrastée */
+}
+  
+.button-yes-no:hover {
+    transform: translateY(-8px); /* Effet de levée plus marqué */
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.6); /* Ombre plus marquée pour l'effet */
+    background: linear-gradient(135deg, #ff758c, #ff7eb3); /* Inversion des couleurs */
+}
+  
+.button-yes-no:active {
+    transform: translateY(4px); /* Légère pression lors du clic */
+    background: linear-gradient(135deg, #ff7eb3, #ff758c); /* Maintien de l'effet visuel lors du clic */
+}
+  
+  /* Bouton "Ouvrir la boîte" */
+.button-open-box {
+    background: linear-gradient(135deg, #00b4d8, #0077b6); /* Dégradé bleu */
+    border: none;
+    color: white;
+    padding: 35px 60px; /* Très grand pour une impression d'importance */
+    font-size: 45px; /* Très grande taille de police */
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px; /* Coins très arrondis */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5); /* Ombre plus marquée */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 50px; /* Espacement plus grand pour une hiérarchie visuelle */
+    width: 350px; /* Taille plus grande que les autres boutons */
+    text-align: center;
+    border: 2px solid #0077b6; /* Bordure correspondant à la couleur de fond */
+}
+  
+.button-open-box:hover {
+    transform: translateY(-8px); /* Effet de levée pour renforcer l'interaction */
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.6); /* Ombre encore plus marquée */
+    background: linear-gradient(135deg, #0077b6, #00b4d8); /* Inversion des couleurs au survol */
+}
+  
+.button-open-box:active {
+    transform: translateY(4px); /* Légère pression lors du clic */
+    background: linear-gradient(135deg, #00b4d8, #0077b6); /* Maintien de l'effet visuel */
+}
+  
+  
+
+
+/* Page du code */
+#code-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2); /* Plus de transparence pour éviter le blanc total */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  backdrop-filter: blur(5px); /* Effet verre dépoli */
+}
+
+#code-input {
+  padding: 10px;
+  font-size: 24px; /* Augmentation de la taille du texte du champ */
+  border: 2px solid #ff758c;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+#coffre {
+  background-image: url("../images/coffre.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  filter: brightness(1) contrast(1.1); /* Ajustement du contraste */
+  margin-top: 20px;
+}
+
+
+  
+  
+  
+      
+
+
